@@ -1,7 +1,7 @@
 # Jobfair support Setup project
 
 ## Viblo Docker for PHP Development
-- Clone repo from: [docker-php-development](https://github.com/sun-asterisk-research/docker-php-development)
+- Clone repo from: [docker-php-development](https://github.com/huytuchim789/docker_php_development)
 - Reset commit `f5da6bf feat: update default minio region`
 ```
 cd docker-php-development
