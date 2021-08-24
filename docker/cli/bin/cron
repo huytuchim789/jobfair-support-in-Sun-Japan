@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "* * * * * php /srv/jobfair-support/artisan schedule:run" | crontab -u www-data -
+exec crond -fl 2

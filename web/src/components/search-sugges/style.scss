@@ -1,0 +1,12 @@
+.suggestion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 5px;
+    z-index: 999;
+}
+.search-sugges{
+    display: flex;
+    align-items: flex-start;
+}

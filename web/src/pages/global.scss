@@ -1,0 +1,150 @@
+body {
+  font-size: 16px;
+  margin: 0 auto;
+
+  p,
+  span,
+  ul,
+  li,
+  a {
+    font-size: 16px;
+    color: #272343;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #ffd803;
+  }
+
+  ul,
+  li {
+    list-style: none;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    color: #272343;
+  }
+
+  //button
+  .ant-btn-primary {
+    border-color: #ffd803;
+    background-color: #ffd803;
+    color: rgba(0, 0, 0, 0.85);
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+  .ant-btn:hover,
+  .ant-btn:focus {
+    color: #ffd803;
+    border-color: #ffd803;
+  }
+  // disabled
+  .ant-btn-primary[disabled],
+  .ant-btn-primary[disabled]:hover,
+  .ant-btn-primary[disabled]:focus,
+  .ant-btn-primary[disabled]:active {
+    color: rgba(0, 0, 0, 0.25);
+    background: #f5f5f5;
+    border-color: #d9d9d9;
+    text-shadow: none;
+    box-shadow: none;
+  }
+  //input
+  .ant-input {
+    color: #272343;
+    padding: 7px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    border: 1.2px solid rgb(172, 169, 169);
+  }
+
+  .ant-input:hover,
+  .ant-input:focus {
+    border: #ffd803 solid 1.2px;
+  }
+
+  .ant-input::placeholder {
+    color: #afadb1;
+  }
+
+  .input {
+    padding: 10px;
+  }
+  .no-border {
+    .ant-input:hover,
+    .ant-input:focus {
+      border: none;
+    }
+  }
+  //Tooltip
+  .ant-tooltip-inner {
+    color: #272343;
+    background-color: #fffffe;
+  }
+
+  //date
+  .ant-picker:hover,
+  .ant-picker-focused {
+    border-color: #ffd803;
+  }
+
+  //Pagination
+  .ant-pagination-item:hover,
+  .ant-pagination-item > a:hover,
+  .ant-pagination-item-active > a,
+  .ant-pagination-item-active,
+  .ant-pagination-item-link:hover {
+    border-color: #ffd803;
+    color: #ffd803;
+
+    .ant-pagination-item-link-icon {
+      color: #ffd803;
+    }
+  }
+
+  //select
+  .ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+    border-color: #ffd803;
+  }
+
+  .ant-select:hover,
+  .ant-select-focused {
+    border-color: #ffd803;
+  }
+
+  .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+    .ant-select-selector {
+    border-color: #ffd803;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #edf2f7;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 100vh;
+    border: 3px solid #edf2f7;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a0aec0;
+  }
+}

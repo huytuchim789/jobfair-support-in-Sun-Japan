@@ -1,0 +1,25 @@
+.task_control {
+  @apply w-3/4 ml-auto mr-auto;
+  .btn.btn {
+    @apply mr-1;
+    background-color: #ffd803;
+    color: black;
+    border: 3px solid transparent;
+  }
+
+  .btn:hover {
+    @apply opacity-70;
+  }
+
+  .btn:active {
+    backgroud-color: #ffd803;
+    color: #272343;
+  }
+  .back_btn {
+    @apply mb-20 ml-20;
+  }
+
+  .control_btn {
+    @apply flex justify-end pr-44;
+  }
+}

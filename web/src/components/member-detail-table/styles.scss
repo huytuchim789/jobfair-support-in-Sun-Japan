@@ -1,0 +1,19 @@
+.css_all {
+  .member_table {
+    @apply mr-72 ml-auto mt-8  py-24;
+    border: 2px solid rgb(177, 177, 185);
+  }
+  .border_gray {
+    @apply border-blue-900;
+  }
+  th {
+    @apply whitespace-nowrap text-right pl-16 text-lg font-normal;
+    height: 52px;
+  }
+  tr {
+    @apply ml-auto mr-auto  py-2 text-left;
+  }
+  .ava {
+    @apply block;
+  }
+}

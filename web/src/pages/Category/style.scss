@@ -1,0 +1,29 @@
+.listCategory{
+// list
+    .ant-table-thead > tr > *{
+        background-color : #bae8e8 !important;
+        font-size: 16px;
+    }
+
+    .ant-table-pagination-right {
+        justify-content: center;
+    }
+
+    .ant-pagination-options-size-changer.ant-select{
+        display: none;
+    }
+
+    .ant-table-container{
+        position: relative;
+    }
+
+    .input-category{
+        height: 36px;
+        width: -webkit-fill-available !important;
+        padding-left: 3px;
+    }
+    // add form
+    .ant-form-item-required::after{
+        display: none;
+    }
+}

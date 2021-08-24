@@ -1,0 +1,24 @@
+.TaskList {
+      thead[class*="ant-table-thead"] th {
+            background-color: #bae8e8 !important;
+      }
+      .ant-input:hover,
+      .ant-input:focus {
+            border: none;
+      }
+      .anticon {
+            font-size: 12px !important;
+      }
+      .active {
+            border-radius: 15px !important;
+            border-color: #ffd803 !important;
+            background-color: #ffd803 !important;
+      }
+
+      .ant-btn-text:hover,
+      .ant-btn-text:focus {
+            border-radius: 15px !important;
+            border-color: #ffd803 !important;
+            background-color: #ffd803 !important;
+      }
+}

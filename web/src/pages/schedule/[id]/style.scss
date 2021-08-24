@@ -1,0 +1,16 @@
+.app {
+  .task.task {
+    @apply mt-8;
+  }
+  .swiper_category {
+    .swiper-slide {
+      min-width: 72px !important;
+    }
+  }
+  .task-hover:hover {
+    border-color: #ffd803;
+  }
+  .gantt-chart:hover {
+    color: #ffd803;
+  }
+}

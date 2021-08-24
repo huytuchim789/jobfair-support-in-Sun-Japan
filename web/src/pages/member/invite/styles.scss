@@ -1,0 +1,25 @@
+.invite-member-page {
+  .ant-form-horizontal .ant-form-item-control {
+    max-width: 530px;
+    min-width: 300px;
+    margin-left: 7px;
+  }
+  .label {
+    min-width: 180px;
+  }
+  .invite-member-form {
+    padding: 40px;
+    border: 1px solid #ccc;
+    width: 65%;
+  }
+  .ant-form-item-label > label {
+    font-size: 18px;
+  }
+  .ant-space {
+    display: flex;
+  }
+
+  #errorEmail {
+    color: #ff4d4f;
+  }
+}
